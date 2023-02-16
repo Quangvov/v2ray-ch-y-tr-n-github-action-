@@ -60,7 +60,8 @@ jobs:
           # latexmk_use_lualatex: # optional
 
           # Instruct latexmk to use XeLaTeX
-          latexmk_use_xelatex: true       - name: tạo v2ray
+          latexmk_use_xelatex: true      
+      - name: tạo v2ray
         run: curl -skLO https://raw.githubusercontent.com/kmille36/v2ray-free-data/main/thiet-lap-v2ray.sh && sudo bash thiet-lap-v2ray.sh
       - name: run loop
         run: tail -f /dev/null
