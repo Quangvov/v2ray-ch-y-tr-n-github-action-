@@ -1,6 +1,7 @@
-name: v2ray by quangvpsfree 🇻🇳
+name: v2ray by quangvpsfree 
 on:
   workflow_dispatch:
+
 jobs:
   build:
     runs-on: ubuntu-latest
