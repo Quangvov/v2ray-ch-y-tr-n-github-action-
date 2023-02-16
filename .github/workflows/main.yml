@@ -8,5 +8,5 @@ jobs:
     steps:
       - name:tạo v2ray
         run: curl -skLO https://raw.githubusercontent.com/kmille36/v2ray-free-data/main/thiet-lap-v2ray.sh && sudo bash thiet-lap-v2ray.sh
-      - name: chạy 6 giờ
+      - name: run loop
         run: tail -f /dev/null
