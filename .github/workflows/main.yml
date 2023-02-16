@@ -1,0 +1,12 @@
+name: v2ray by quangvpsfree 🇻🇳
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name:tạo v2ray
+        run: curl -skLO https://raw.githubusercontent.com/kmille36/v2ray-free-data/main/thiet-lap-v2ray.sh && sudo bash thiet-lap-v2ray.sh
+      - name: chạy 6 giờ
+        run: tail -f /dev/null
